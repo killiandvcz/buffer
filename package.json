@@ -1,0 +1,33 @@
+{
+  "name": "@killiandvcz/buffer",
+  "version": "1.0.0",
+  "description": "Autonomous message buffer system with intelligent batching and self-monitoring capabilities",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "buffer",
+    "queue",
+    "batch",
+    "messages",
+    "websocket",
+    "autonomous",
+    "smart-batching",
+    "traffic-analysis"
+  ],
+  "author": "Killian Di Vincenzo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killiandvcz/buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killiandvcz/buffer/issues"
+  },
+  "homepage": "https://github.com/killiandvcz/buffer#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
