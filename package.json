@@ -1,6 +1,6 @@
 {
   "name": "@killiandvcz/buffer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Autonomous message buffer system with intelligent batching and self-monitoring capabilities",
   "main": "src/index.js",
   "type": "module",
