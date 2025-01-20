@@ -1,1 +1,1 @@
-export {MegaBuffer} from './buffer.js';
+export * from './buffer.js';

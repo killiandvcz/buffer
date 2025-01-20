@@ -17,6 +17,7 @@ import { Entry } from "./entry";
  * @property {number} [processingCheckInterval=1000] Interval to check if processing is possible when blocked (ms)
  * @property {function} [canProcess] Custom function to check if processing is possible
  */
+
 export class MegaBuffer {
     /**
      * Creates a new MessageBuffer instance
@@ -254,6 +255,14 @@ export class MegaBuffer {
         }
         this._queue.clear();
         this._retryMap.clear();
+    }
+
+
+    /**
+     * Force flush the buffer and restart the timer
+     */
+    flush() {
+        this._flush();
     }
 }
 
